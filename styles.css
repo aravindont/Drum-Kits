@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  letter-spacing: 6px;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+}
+
+.btn {
+  padding: 30px 50px;
+  text-transform: capitalize;
+  background-color: white;
+  border: none;
+  margin: 10px;
+  font-size: 30px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: cursive;
+  color: white;
+  background-size: cover;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  color: pink;
+}
+
+.btn:active {
+  background-size: 105%;
+}
+.container {
+  text-align: center;
+}
